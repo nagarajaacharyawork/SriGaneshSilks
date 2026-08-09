@@ -49,14 +49,14 @@ export const SHOP_BY_COLLECTION: Category[] = [
 ];
 
 export const OCCASIONS = [
-  { title: "Wedding", image: IMG.catWedding },
-  { title: "Reception", image: IMG.catDesigner },
-  { title: "Temple Visit", image: IMG.catSilk },
-  { title: "Festival", image: IMG.catFestival },
-  { title: "Office Wear", image: IMG.catCotton },
-  { title: "Daily Wear", image: IMG.catCotton },
-  { title: "Family Functions", image: IMG.hero3 },
-  { title: "Traditional Events", image: IMG.catBridal },
+  { title: "Wedding", image: IMG.occWedding },
+  { title: "Reception", image: IMG.occReception },
+  { title: "Temple Visit", image: IMG.occTemple },
+  { title: "Festival", image: IMG.occFestival },
+  { title: "Office Wear", image: IMG.occOffice },
+  { title: "Daily Wear", image: IMG.occDaily },
+  { title: "Family Functions", image: IMG.occFamily },
+  { title: "Traditional Events", image: IMG.occTraditional },
 ];
 
 export const FEATURED = [
@@ -64,28 +64,28 @@ export const FEATURED = [
     kicker: "Chapter One",
     title: "The Wedding Collection",
     body: "Seven decades of knowing what a family needs on the morning of a wedding. Kanjivaram, Banarasi and Mysore silks selected weave by weave, with a dedicated bridal room and unhurried attention from our third generation.",
-    image: IMG.catWedding,
+    image: IMG.featuredWedding,
     to: "/wedding",
   },
   {
     kicker: "Chapter Two",
     title: "Traditional Elegance",
     body: "Temple borders, korvai joins, real zari that catches the lamplight. Our silk wall holds pieces sourced directly from weaving clusters in Kanchipuram, Dharmavaram and Ilkal.",
-    image: IMG.catSilk,
+    image: IMG.featuredSilk,
     to: "/women",
   },
   {
     kicker: "Chapter Three",
     title: "Everyday Classics",
     body: "Soft coastal cottons and easy blends made for Kundapura afternoons — breathable, beautifully finished and priced the way a family shop should price them.",
-    image: IMG.catCotton,
+    image: IMG.featuredCotton,
     to: "/women",
   },
   {
     kicker: "Chapter Four",
     title: "The Festive Rooms",
     body: "From Ugadi to Deepavali, our festival floor is restocked every season with colours chosen for coastal Karnataka's celebrations — and outfits for every member of the family.",
-    image: IMG.catFestival,
+    image: IMG.featuredFestival,
     to: "/festival",
   },
 ];
@@ -97,8 +97,8 @@ export const GALLERY = [
   { title: "Wedding Collection", image: IMG.showWedding },
   { title: "Men's Floor", image: IMG.showMen },
   { title: "Kids Section", image: IMG.showKids },
-  { title: "Billing Area", image: IMG.hero3 },
   { title: "Family Shopping", image: IMG.hero2 },
+  { title: "Bridal Collection", image: IMG.catBridal },
 ];
 
 export const REVIEWS = [
