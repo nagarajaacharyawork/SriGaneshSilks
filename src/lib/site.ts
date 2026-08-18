@@ -14,7 +14,7 @@ export const SITE = {
   mapEmbed:
     "https://www.google.com/maps?q=Thekkatte,+Kundapura,+Karnataka&output=embed",
   mapLink: "https://www.google.com/maps/search/?api=1&query=Thekkatte+Kundapura+Karnataka",
-  instagram: "https://instagram.com",
+  instagram: "https://www.instagram.com/ganeshsilks_?igsh=MW5tNmNwZGNqbHIxNQ==",
   facebook: "https://facebook.com",
 };
 
