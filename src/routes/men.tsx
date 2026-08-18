@@ -32,11 +32,11 @@ export const Route = createFileRoute("/men")({
       ]}
       pieces={[
         { title: "Silk Kurtas", blurb: "Festive and wedding kurtas in classic tones.", image: IMG.catMen },
-        { title: "Dhotis & Angavastras", blurb: "Traditional coastal styles with zari borders.", image: IMG.showMen },
-        { title: "Shirtings", blurb: "Cotton, linen and blended mill fabrics.", image: IMG.showMen },
-        { title: "Suitings", blurb: "Formal fabrics for functions and office wear.", image: IMG.showMen },
-        { title: "Shawls & Stoles", blurb: "Silk and wool shawls for ceremonies.", image: IMG.catSilk },
-        { title: "Groom's Wear", blurb: "Coordinated wedding sets for the groom's party.", image: IMG.catWedding },
+        { title: "Dhotis & Angavastras", blurb: "Traditional coastal styles with zari borders.", image: IMG.menDhotis },
+        { title: "Shirtings", blurb: "Cotton, linen and blended mill fabrics.", image: IMG.menShirtings },
+        { title: "Suitings", blurb: "Formal fabrics for functions and office wear.", image: IMG.menSuitings },
+        { title: "Shawls & Stoles", blurb: "Silk and wool shawls for ceremonies.", image: IMG.menShawls },
+        { title: "Groom's Wear", blurb: "Coordinated wedding sets for the groom's party.", image: IMG.menGroom },
       ]}
       notes={[
         { title: "Function Sets", body: "Match kurtas and dhotis across ten or fifty people in one visit." },

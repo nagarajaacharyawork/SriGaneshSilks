@@ -37,6 +37,20 @@ import occDaily from "@/assets/Daily Wear.jpg";
 import occFamily from "@/assets/Family Functions.jpg";
 import occTraditional from "@/assets/Traditional Events.jpg";
 
+// Men pieces
+import menDhotis from "@/assets/Dhotis & Angavastras.jpg";
+import menShirtings from "@/assets/Shirtings.jpg";
+import menSuitings from "@/assets/Suitings.jpg";
+import menShawls from "@/assets/Shawls & Stoles.jpg";
+import menGroom from "@/assets/Groom's Wear.jpg";
+
+// Kids pieces
+import kidsKurtas from "@/assets/Festive Kurtas-kids.jpg";
+import kidsFrocks from "@/assets/Frocks & Gowns- Kids.jpg";
+import kidsWedding from "@/assets/Wedding Kids Wear.jpg";
+import kidsCottons from "@/assets/Everyday Cottons-Kids.jpg";
+import kidsFestival from "@/assets/Festival Sets-kids.jpg";
+
 // Misc
 import signature from "@/assets/signature.jpg";
 import heritage from "@/assets/heritage.jpg";
@@ -82,6 +96,16 @@ export const IMG = {
   occDaily,
   occFamily,
   occTraditional,
+  menDhotis,
+  menShirtings,
+  menSuitings,
+  menShawls,
+  menGroom,
+  kidsKurtas,
+  kidsFrocks,
+  kidsWedding,
+  kidsCottons,
+  kidsFestival,
   menExtra1,
   menExtra2,
   womenExtra1,

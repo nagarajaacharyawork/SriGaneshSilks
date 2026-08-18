@@ -32,11 +32,11 @@ export const Route = createFileRoute("/kids")({
       ]}
       pieces={[
         { title: "Pattu Pavadai", blurb: "Traditional silk skirt sets with soft linings.", image: IMG.catKids },
-        { title: "Festive Kurtas", blurb: "Comfortable silk and cotton kurtas for boys.", image: IMG.showKids },
-        { title: "Frocks & Gowns", blurb: "Function-ready frocks in festive fabrics.", image: IMG.showKids },
-        { title: "Wedding Kids Wear", blurb: "Coordinated with the family's wedding palette.", image: IMG.catWedding },
-        { title: "Everyday Cottons", blurb: "Breathable daily wear for coastal weather.", image: IMG.catCotton },
-        { title: "Festival Sets", blurb: "Seasonal arrivals for Deepavali and Ugadi.", image: IMG.catFestival },
+        { title: "Festive Kurtas", blurb: "Comfortable silk and cotton kurtas for boys.", image: IMG.kidsKurtas },
+        { title: "Frocks & Gowns", blurb: "Function-ready frocks in festive fabrics.", image: IMG.kidsFrocks },
+        { title: "Wedding Kids Wear", blurb: "Coordinated with the family's wedding palette.", image: IMG.kidsWedding },
+        { title: "Everyday Cottons", blurb: "Breathable daily wear for coastal weather.", image: IMG.kidsCottons },
+        { title: "Festival Sets", blurb: "Seasonal arrivals for Deepavali and Ugadi.", image: IMG.kidsFestival },
       ]}
       notes={[
         { title: "Toddler to Teen", body: "A full size range so siblings can be dressed together." },
