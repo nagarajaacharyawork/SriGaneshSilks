@@ -97,8 +97,8 @@ export const GALLERY = [
   { title: "Wedding Collection", image: IMG.showWedding },
   { title: "Men's Floor", image: IMG.showMen },
   { title: "Kids Section", image: IMG.showKids },
-  { title: "Family Shopping", image: IMG.hero2 },
-  { title: "Bridal Collection", image: IMG.catBridal },
+  { title: "Our Team", image: IMG.ps_completeStaffs },
+  { title: "Staff at the Showroom", image: IMG.ps_staffs },
 ];
 
 export const REVIEWS = [

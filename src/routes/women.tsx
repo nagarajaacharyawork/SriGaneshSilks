@@ -2,6 +2,23 @@ import { createFileRoute } from "@tanstack/react-router";
 import { CollectionPage } from "@/components/site/CollectionPage";
 import { IMG } from "@/lib/images";
 
+const WOMEN_PHOTOS = [
+  { src: IMG.ps_womenSaree, alt: "Women's saree collection" },
+  { src: IMG.ps_womenSaree01, alt: "Saree photoshoot" },
+  { src: IMG.ps_womenSaree02, alt: "Saree drapes" },
+  { src: IMG.ps_womenSaree03, alt: "Silk sarees" },
+  { src: IMG.ps_womenSaree04, alt: "Festive sarees" },
+  { src: IMG.ps_womenSaree05, alt: "Bridal sarees" },
+  { src: IMG.ps_womenSaree06, alt: "Designer sarees" },
+  { src: IMG.ps_womenSaree07, alt: "Wedding sarees" },
+  { src: IMG.ps_womenSaree08, alt: "Saree collection" },
+  { src: IMG.ps_womenSaree09, alt: "Premium sarees" },
+  { src: IMG.ps_singleWomen01, alt: "Single saree look" },
+  { src: IMG.ps_singleWomen02, alt: "Elegant drape" },
+  { src: IMG.ps_singleWomen03, alt: "Classic saree" },
+  { src: IMG.ps_lehenga, alt: "Lehenga choli" },
+];
+
 export const Route = createFileRoute("/women")({
   head: () => ({
     meta: [
@@ -38,6 +55,7 @@ export const Route = createFileRoute("/women")({
         { title: "Dress Materials", blurb: "Unstitched premium sets with matching dupattas.", image: IMG.showSilk },
         { title: "Blouses & Accessories", blurb: "Blouse fabric, borders, falls and pico service.", image: IMG.catBridal },
       ]}
+      photos={WOMEN_PHOTOS}
       notes={[
         { title: "Colour Matching", body: "Bring a blouse or a photograph — we will match the shade from the wall." },
         { title: "Seasonal Arrivals", body: "New silk and cotton stock lands every week through the festive season." },

@@ -2,6 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { CollectionPage } from "@/components/site/CollectionPage";
 import { IMG } from "@/lib/images";
 
+const KIDS_PHOTOS = [
+  { src: IMG.ps_children, alt: "Children's dress collection" },
+];
+
 export const Route = createFileRoute("/kids")({
   head: () => ({
     meta: [
@@ -38,6 +42,7 @@ export const Route = createFileRoute("/kids")({
         { title: "Everyday Cottons", blurb: "Breathable daily wear for coastal weather.", image: IMG.kidsCottons },
         { title: "Festival Sets", blurb: "Seasonal arrivals for Deepavali and Ugadi.", image: IMG.kidsFestival },
       ]}
+      photos={KIDS_PHOTOS}
       notes={[
         { title: "Toddler to Teen", body: "A full size range so siblings can be dressed together." },
         { title: "Comfort First", body: "Soft linings and finished seams on every traditional piece." },

@@ -16,6 +16,7 @@ type Props = {
   story: string[];
   pieces: Piece[];
   notes?: { title: string; body: string }[];
+  photos?: { src: string; alt: string }[];
 };
 
 export function CollectionPage({
@@ -27,6 +28,7 @@ export function CollectionPage({
   story,
   pieces,
   notes,
+  photos,
 }: Props) {
   return (
     <>
@@ -86,11 +88,33 @@ export function CollectionPage({
         </div>
       </section>
 
-      {notes?.length ? (
+      {photos?.length ? (
         <section className="section-y bg-background">
+          <div className="shell">
+            <SectionHeading kicker="From the Showroom" title="Real looks, real people" />
+            <div className="mt-16 columns-1 gap-4 sm:columns-2 lg:columns-3 lg:gap-6 [&>*]:mb-4 lg:[&>*]:mb-6">
+              {photos.map((ph, i) => (
+                <Reveal key={i} variant="mask" delay={(i % 3) * 80} className="zoom-media block break-inside-avoid">
+                  <img
+                    src={ph.src}
+                    alt={ph.alt}
+                    loading="lazy"
+                    width={1024}
+                    height={1280}
+                    className="w-full object-cover"
+                  />
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {notes?.length ? (
+        <section className="section-y bg-beige">
           <div className="shell grid gap-px overflow-hidden border border-gold/20 bg-gold/20 md:grid-cols-3">
             {notes.map((n, i) => (
-              <Reveal key={n.title} delay={i * 80} className="bg-background p-8 lg:p-10">
+              <Reveal key={n.title} delay={i * 80} className="bg-beige p-8 lg:p-10">
                 <h3 className="font-display text-2xl text-burgundy">{n.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{n.body}</p>
               </Reveal>
