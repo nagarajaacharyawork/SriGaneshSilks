@@ -2,10 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { CollectionPage } from "@/components/site/CollectionPage";
 import { IMG } from "@/lib/images";
 
-const MEN_PHOTOS = [
-  { src: IMG.ps_men, alt: "Men's collection photoshoot" },
-];
-
 export const Route = createFileRoute("/men")({
   head: () => ({
     meta: [
@@ -42,7 +38,14 @@ export const Route = createFileRoute("/men")({
         { title: "Shawls & Stoles", blurb: "Silk and wool shawls for ceremonies.", image: IMG.menShawls },
         { title: "Groom's Wear", blurb: "Coordinated wedding sets for the groom's party.", image: IMG.menGroom },
       ]}
-      photos={MEN_PHOTOS}
+      photos={[
+        { src: IMG.menExtra6, alt: "Men's collection" },
+        { src: IMG.menExtra5, alt: "Men's collection" },
+        { src: IMG.menExtra4, alt: "Men's collection" },
+        { src: IMG.menExtra3, alt: "Men's collection" },
+        { src: IMG.menExtra2, alt: "Men's collection" },
+        { src: IMG.showExterior, alt: "Men's collection" },
+      ]}
       notes={[
         { title: "Function Sets", body: "Match kurtas and dhotis across ten or fifty people in one visit." },
         { title: "Tailoring Guidance", body: "We connect you with tailors our customers already trust." },

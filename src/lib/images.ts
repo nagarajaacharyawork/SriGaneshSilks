@@ -73,6 +73,10 @@ import kidsFrocks from "@/assets/Frocks & Gowns- Kids.jpg";
 import kidsWedding from "@/assets/Wedding Kids Wear.jpg";
 import kidsCottons from "@/assets/Everyday Cottons-Kids.jpg";
 import kidsFestival from "@/assets/Festival Sets-kids.jpg";
+import kidsNew1 from "@/assets/Kids/DSC01449.JPG.webp";
+import kidsNew2 from "@/assets/Kids/DSC01465.JPG.webp";
+import kidsNew3 from "@/assets/Kids/DSC01486.JPG.webp";
+import kidsPattupavadai from "@/assets/Kids/pattupavada.jpg";
 
 // Misc
 import signature from "@/assets/signature.jpg";
@@ -81,6 +85,10 @@ import heritage from "@/assets/heritage.jpg";
 // Men extras
 import menExtra1 from "@/assets/Model-male-03.webp";
 import menExtra2 from "@/assets/Model-male-04.webp";
+import menExtra3 from "@/assets/Model-male-05.webp";
+import menExtra4 from "@/assets/Model-male-06.webp";
+import menExtra5 from "@/assets/Model-male-07.webp";
+import menExtra6 from "@/assets/Model-male-08.webp";
 
 // Women extras
 import womenExtra1 from "@/assets/Model-Female-07.webp";
@@ -129,8 +137,16 @@ export const IMG = {
   kidsWedding,
   kidsCottons,
   kidsFestival,
+  kidsNew1,
+  kidsNew2,
+  kidsNew3,
+  kidsPattupavadai,
   menExtra1,
   menExtra2,
+  menExtra3,
+  menExtra4,
+  menExtra5,
+  menExtra6,
   womenExtra1,
   womenExtra2,
   kidsExtra,

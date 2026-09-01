@@ -92,16 +92,16 @@ export function CollectionPage({
         <section className="section-y bg-background">
           <div className="shell">
             <SectionHeading kicker="From the Showroom" title="Real looks, real people" />
-            <div className="mt-16 columns-1 gap-4 sm:columns-2 lg:columns-3 lg:gap-6 [&>*]:mb-4 lg:[&>*]:mb-6">
+            <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 md:gap-6">
               {photos.map((ph, i) => (
-                <Reveal key={i} variant="mask" delay={(i % 3) * 80} className="zoom-media block break-inside-avoid">
+                <Reveal key={i} delay={(i % 3) * 80} className="zoom-media block">
                   <img
                     src={ph.src}
                     alt={ph.alt}
                     loading="lazy"
                     width={1024}
                     height={1280}
-                    className="w-full object-cover"
+                    className="aspect-[3/4] w-full object-cover"
                   />
                 </Reveal>
               ))}
