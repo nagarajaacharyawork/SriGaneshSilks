@@ -20,9 +20,9 @@ export const MEGA_MENU: { heading: string; items: Category[] }[] = [
   {
     heading: "Everyday & Occasion",
     items: [
-      { title: "Cotton Sarees", blurb: "Coastal handloom comfort", image: IMG.catCotton, to: "/women" },
-      { title: "Printed Sarees", blurb: "Light, modern, easy", image: IMG.catDesigner, to: "/women" },
-      { title: "Dress Materials", blurb: "Unstitched premium sets", image: IMG.catCotton, to: "/women" },
+      { title: "Cotton Sarees", blurb: "Coastal handloom comfort", image: IMG.womenCottonSarees, to: "/women" },
+      { title: "Printed Sarees", blurb: "Light, modern, easy", image: IMG.womenPrintedSarees, to: "/women" },
+      { title: "Dress Materials", blurb: "Unstitched premium sets", image: IMG.womenDressMaterials, to: "/women" },
       { title: "Festival Collection", blurb: "Deepavali to Ugadi", image: IMG.catFestival, to: "/festival" },
     ],
   },

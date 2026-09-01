@@ -33,7 +33,7 @@ export const Route = createFileRoute("/wedding")({
       ]}
       pieces={[
         { title: "Bridal Kanjivaram", blurb: "Korvai borders, contrast pallus, genuine zari.", image: IMG.catBridal },
-        { title: "Banarasi Silk", blurb: "Fine brocade work in classic and modern palettes.", image: IMG.catSilk },
+        { title: "Banarasi Silk", blurb: "Fine brocade work in classic and modern palettes.", image: IMG.womenBanarasi },
         { title: "Reception Drapes", blurb: "Lighter designer silks for the evening function.", image: IMG.catDesigner },
         { title: "Family Trousseau", blurb: "Coordinated sets for mothers, sisters and aunts.", image: IMG.showWedding },
         { title: "Groom's Wear", blurb: "Silk kurtas, dhotis, shawls and shirtings.", image: IMG.catMen },

@@ -86,7 +86,7 @@ import heritage from "@/assets/heritage.jpg";
 import menExtra1 from "@/assets/Model-male-03.webp";
 import menExtra2 from "@/assets/Model-male-04.webp";
 import menExtra3 from "@/assets/Model-male-05.webp";
-import menExtra4 from "@/assets/Model-male-06.webp";
+import menExtra4 from "@/assets/NewPhotoshootImages/menphotoshoot.webp";
 import menExtra5 from "@/assets/Model-male-07.webp";
 import menExtra6 from "@/assets/Model-male-08.webp";
 
@@ -96,6 +96,15 @@ import womenExtra2 from "@/assets/Model-Female-08.webp";
 
 // Kids extra
 import kidsExtra from "@/assets/FemaleChild-02.webp";
+
+// Women collection pieces
+import womenBanarasi from "@/assets/Banarasi Silk.jpg";
+import womenBlouses from "@/assets/Blouses & Accessories.jpg";
+import womenCottonSarees from "@/assets/Cotton Sarees.jpg";
+import womenDesignerSarees from "@/assets/Designer Sarees.jpg";
+import womenDressMaterials from "@/assets/Dress Materials.jpg";
+import womenEverydayClassics from "@/assets/Everyday Classics.jpg";
+import womenPrintedSarees from "@/assets/Printed Sarees.jpg";
 
 export const IMG = {
   hero1,
@@ -150,6 +159,13 @@ export const IMG = {
   womenExtra1,
   womenExtra2,
   kidsExtra,
+  womenBanarasi,
+  womenBlouses,
+  womenCottonSarees,
+  womenDesignerSarees,
+  womenDressMaterials,
+  womenEverydayClassics,
+  womenPrintedSarees,
   signature,
   heritage,
   ps_womenSaree,

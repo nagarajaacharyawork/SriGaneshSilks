@@ -17,6 +17,7 @@ const WOMEN_PHOTOS = [
   { src: IMG.ps_singleWomen02, alt: "Elegant drape" },
   { src: IMG.ps_singleWomen03, alt: "Classic saree" },
   { src: IMG.ps_lehenga, alt: "Lehenga choli" },
+  { src: IMG.womenEverydayClassics, alt: "Everyday classics" },
 ];
 
 export const Route = createFileRoute("/women")({
@@ -49,11 +50,11 @@ export const Route = createFileRoute("/women")({
       ]}
       pieces={[
         { title: "Pure Silk Sarees", blurb: "Kanjivaram, Mysore and Dharmavaram weaves.", image: IMG.catSilk },
-        { title: "Cotton Sarees", blurb: "Ilkal, Mangalgiri and coastal handlooms.", image: IMG.catCotton },
-        { title: "Designer Sarees", blurb: "Organza, tissue and embroidered contemporary drapes.", image: IMG.catDesigner },
-        { title: "Printed Sarees", blurb: "Light, easy and perfect for daily wear.", image: IMG.catCotton },
-        { title: "Dress Materials", blurb: "Unstitched premium sets with matching dupattas.", image: IMG.showSilk },
-        { title: "Blouses & Accessories", blurb: "Blouse fabric, borders, falls and pico service.", image: IMG.catBridal },
+        { title: "Cotton Sarees", blurb: "Ilkal, Mangalgiri and coastal handlooms.", image: IMG.womenCottonSarees },
+        { title: "Designer Sarees", blurb: "Organza, tissue and embroidered contemporary drapes.", image: IMG.womenDesignerSarees },
+        { title: "Printed Sarees", blurb: "Light, easy and perfect for daily wear.", image: IMG.womenPrintedSarees },
+        { title: "Dress Materials", blurb: "Unstitched premium sets with matching dupattas.", image: IMG.womenDressMaterials },
+        { title: "Blouses & Accessories", blurb: "Blouse fabric, borders, falls and pico service.", image: IMG.womenBlouses },
       ]}
       photos={WOMEN_PHOTOS}
       notes={[
