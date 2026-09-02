@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CollectionPage } from "@/components/site/CollectionPage";
 import { IMG } from "@/lib/images";
+import silkKurtasImg from "@/assets/Silk Kurtas.jpg";
 
 export const Route = createFileRoute("/men")({
   head: () => ({
@@ -31,7 +32,7 @@ export const Route = createFileRoute("/men")({
         "For those who prefer tailoring, our shirting and suiting counter holds trusted mill fabrics, and we can recommend local tailors who work with our customers regularly.",
       ]}
       pieces={[
-        { title: "Silk Kurtas", blurb: "Festive and wedding kurtas in classic tones.", image: IMG.catMen },
+        { title: "Silk Kurtas", blurb: "Festive and wedding kurtas in classic tones.", image: silkKurtasImg },
         { title: "Dhotis & Angavastras", blurb: "Traditional coastal styles with zari borders.", image: IMG.menDhotis },
         { title: "Shirtings", blurb: "Cotton, linen and blended mill fabrics.", image: IMG.menShirtings },
         { title: "Suitings", blurb: "Formal fabrics for functions and office wear.", image: IMG.menSuitings },

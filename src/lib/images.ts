@@ -6,7 +6,7 @@ import ps_womenSaree03 from "@/assets/NewPhotoshootImages/womensareephotoshoot03
 import ps_womenSaree04 from "@/assets/NewPhotoshootImages/womensareephotoshoot04.webp";
 import ps_womenSaree05 from "@/assets/NewPhotoshootImages/2-womensareephotoshoot05.webp";
 import ps_womenSaree06 from "@/assets/NewPhotoshootImages/womensareephotoshoot06.webp";
-import ps_womenSaree07 from "@/assets/NewPhotoshootImages/womensareephotoshoot07.webp";
+import ps_womenSaree07 from "@/assets/NewPhotoshootImages/womensareephotoshoot06.webp";
 import ps_womenSaree08 from "@/assets/NewPhotoshootImages/2-womensareephotoshoot08.webp";
 import ps_womenSaree09 from "@/assets/NewPhotoshootImages/womensareephotoshoot09.webp";
 import ps_singleWomen01 from "@/assets/NewPhotoshootImages/singlewomensareephotoshoot.webp";
@@ -19,22 +19,22 @@ import ps_men from "@/assets/NewPhotoshootImages/menphotoshoot.webp";
 import ps_lehenga from "@/assets/NewPhotoshootImages/women Lehenga Choli.webp";
 import ps_children from "@/assets/NewPhotoshootImages/ChildrensDress.webp";
 import ps_staffs from "@/assets/NewPhotoshootImages/staffs.webp";
-import ps_completeStaffs from "@/assets/NewPhotoshootImages/complatestaffs.webp";
+import ps_completeStaffs from "@/assets/NewPhotoshootImages/complatestaffs.jpg";
 
 // Hero slides
 import hero1 from "@/assets/Saree-01.webp";
-import hero2 from "@/assets/Model-Group02.webp";
-import hero3 from "@/assets/Model-Group01.webp";
+import hero2 from "@/assets/NewPhotoshootImages/2Womens-1men Photoshoot.webp";
+import hero3 from "@/assets/OldModelsImages/Model-Group01.webp";
 
 // Category thumbnails
 import catBridal from "@/assets/Saree-02.webp";
 import catSilk from "@/assets/SilkSaree.jpg";
 import catCotton from "@/assets/CottonSaree.jpg";
-import catDesigner from "@/assets/Model-Female-01.webp";
-import catWedding from "@/assets/Model-Female-02-group.webp";
+import catDesigner from "@/assets/NewPhotoshootImages/singlewomensareephotoshoot.webp";
+import catWedding from "@/assets/NewPhotoshootImages/women-with-men-photoshoot-02.webp";
 import catFestival from "@/assets/Saree-05.webp";
-import catMen from "@/assets/Model-male-02-single.webp";
-import catKids from "@/assets/FemaleChild-01.webp";
+import catMen from "@/assets/NewPhotoshootImages/menphotoshoot.webp";
+import catKids from "@/assets/Kids/DSC01449.JPG.webp";
 
 // Showroom / gallery
 import showEntrance from "@/assets/show-entrance.jpg";
@@ -42,17 +42,17 @@ import showSilk from "@/assets/show-silk.jpg";
 import showWedding from "@/assets/show-wedding.jpg";
 import showMen from "@/assets/show-men.jpg";
 import showKids from "@/assets/show-kids.jpg";
-import showExterior from "@/assets/Model-male-01-group.webp";
+import showExterior from "@/assets/OldModelsImages/Model-male-01-group.webp";
 
 // Featured collections
-import featuredWedding from "@/assets/Model-Female-02-group.webp";
+import featuredWedding from "@/assets/NewPhotoshootImages/women-with-men-photoshoot-02.webp";
 import featuredSilk from "@/assets/SilkSaree.jpg";
 import featuredCotton from "@/assets/CottonSaree.jpg";
 import featuredFestival from "@/assets/Saree-08.webp";
 
 // Occasions
 import occWedding from "@/assets/Wedding.webp";
-import occReception from "@/assets/Reception.jpg";
+import occReception from "@/assets/Reception (2).jpg";
 import occTemple from "@/assets/SilkSaree.jpg";
 import occFestival from "@/assets/Festival.jpg";
 import occOffice from "@/assets/Office Wear.jpg";
@@ -83,19 +83,19 @@ import signature from "@/assets/signature.jpg";
 import heritage from "@/assets/heritage.jpg";
 
 // Men extras
-import menExtra1 from "@/assets/Model-male-03.webp";
-import menExtra2 from "@/assets/Model-male-04.webp";
-import menExtra3 from "@/assets/Model-male-05.webp";
-import menExtra4 from "@/assets/NewPhotoshootImages/menphotoshoot.webp";
-import menExtra5 from "@/assets/Model-male-07.webp";
-import menExtra6 from "@/assets/Model-male-08.webp";
+import menExtra1 from "@/assets/OldModelsImages/Model-male-03.webp";
+import menExtra2 from "@/assets/OldModelsImages/Model-male-04.webp";
+import menExtra3 from "@/assets/OldModelsImages/Model-male-05.webp";
+import menExtra4 from "@/assets/OldModelsImages/Model-male-06.webp";
+import menExtra5 from "@/assets/OldModelsImages/Model-male-07.webp";
+import menExtra6 from "@/assets/OldModelsImages/Model-male-08.webp";
 
 // Women extras
-import womenExtra1 from "@/assets/Model-Female-07.webp";
-import womenExtra2 from "@/assets/Model-Female-08.webp";
+import womenExtra1 from "@/assets/NewPhotoshootImages/womensareephotoshoot06.webp";
+import womenExtra2 from "@/assets/NewPhotoshootImages/womensareephotoshoot07.webp";
 
 // Kids extra
-import kidsExtra from "@/assets/FemaleChild-02.webp";
+import kidsExtra from "@/assets/Kids/DSC01465.JPG.webp";
 
 // Women collection pieces
 import womenBanarasi from "@/assets/Banarasi Silk.jpg";

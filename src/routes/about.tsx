@@ -6,6 +6,7 @@ import { WhyUs } from "@/components/home/Sections";
 import { FinalCta, ShowroomGallery } from "@/components/home/Features";
 import { TIMELINE } from "@/lib/catalog";
 import { IMG } from "@/lib/images";
+import ownerImg from "@/assets/OwnerImg.jpeg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -45,8 +46,18 @@ function About() {
               Built on a promise, not a plan
             </h2>
             <span className="rule-gold mt-6" />
+            <Reveal className="mt-8 zoom-media">
+              <img
+                src={ownerImg}
+                alt="Founder, Sri Ganesh Silks"
+                loading="lazy"
+                width={800}
+                height={1000}
+                className="w-full object-cover"
+              />
+            </Reveal>
           </Reveal>
-          <div className="space-y-6 lg:col-span-7">
+          <div className="flex flex-col justify-center space-y-6 lg:col-span-7">
             {[
               "In 1956, when Thekkatte was little more than a bend on the coastal road, our founder opened a fabric counter with a modest stock of cotton and one instruction to his sons: never sell a family something you would not give your own.",
               "That instruction outlasted him. Through the seventies, the shop learned silk — first from Mysore, then directly from weaving families in Kanchipuram, Dharmavaram and Ilkal, relationships we still maintain by hand and by phone.",
