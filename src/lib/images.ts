@@ -18,7 +18,7 @@ import ps_groupPhotoshoot from "@/assets/NewPhotoshootImages/2Womens-1men Photos
 import ps_men from "@/assets/NewPhotoshootImages/menphotoshoot.webp";
 import ps_lehenga from "@/assets/NewPhotoshootImages/women Lehenga Choli.webp";
 import ps_children from "@/assets/NewPhotoshootImages/ChildrensDress.webp";
-import ps_staffs from "@/assets/NewPhotoshootImages/staffs.webp";
+import ps_staffs from "@/assets/NewPhotoshootImages/staffs.jpg";
 import ps_completeStaffs from "@/assets/NewPhotoshootImages/complatestaffs.jpg";
 
 // Hero slides
