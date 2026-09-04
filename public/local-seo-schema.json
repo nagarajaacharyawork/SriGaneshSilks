@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["ClothingStore", "LocalBusiness"],
+  "name": "Sri Ganesh Silks",
+  "alternateName": [
+    "Ganesh Silks Thekkatte",
+    "Ganesh Silks Kundapura", 
+    "Sri Ganesh Silks Thekkatte"
+  ],
+  "url": "https://www.sriganeshsilksthekkatte.com",
+  "logo": "https://www.sriganeshsilksthekkatte.com/GaneshSilksLogo.jpg",
+  "image": [
+    "https://www.sriganeshsilksthekkatte.com/GaneshSilksLogo.jpg",
+    "https://www.sriganeshsilksthekkatte.com/assets/Banarasi Silk.jpg",
+    "https://www.sriganeshsilksthekkatte.com/assets/Designer Sarees.jpg"
+  ],
+  "description": "Sri Ganesh Silks, Thekkatte - Family textile showroom since 1956 specializing in authentic silk sarees, Kanjivaram, bridal collections, cotton sarees, menswear and kids wear in Kundapura, Karnataka.",
+  "foundingDate": "1956",
+  "slogan": "Seven Decades of Handwoven Excellence",
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Main Road, Thekkatte",
+    "addressLocality": "Kundapura",
+    "addressRegion": "Karnataka", 
+    "postalCode": "576232",
+    "addressCountry": "IN"
+  },
+  
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 13.5495783,
+    "longitude": 74.7019434
+  },
+  
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919876543210",
+    "contactType": "Customer Service",
+    "availableLanguage": ["English", "Hindi", "Kannada", "Tulu"]
+  },
+  
+  "openingHours": [
+    "Mo-Su 09:30-21:00"
+  ],
+  
+  "paymentAccepted": [
+    "Cash",
+    "Credit Card", 
+    "Debit Card",
+    "UPI",
+    "Net Banking"
+  ],
+  
+  "currenciesAccepted": "INR",
+  "priceRange": "₹₹-₹₹₹",
+  
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Silk Sarees & Ethnic Wear",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Kanjivaram Silk Sarees",
+          "category": "Silk Sarees"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Bridal Sarees Collection",
+          "category": "Wedding Wear"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product", 
+          "name": "Cotton Sarees",
+          "category": "Daily Wear"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Men's Traditional Wear", 
+          "category": "Menswear"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Kids Ethnic Wear",
+          "category": "Children's Clothing"
+        }
+      }
+    ]
+  },
+  
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Kundapura"
+    },
+    {
+      "@type": "City", 
+      "name": "Udupi"
+    },
+    {
+      "@type": "City",
+      "name": "Mangalore" 
+    },
+    {
+      "@type": "State",
+      "name": "Karnataka"
+    }
+  ],
+  
+  "knowsAbout": [
+    "Silk Sarees",
+    "Kanjivaram Sarees", 
+    "Banarasi Sarees",
+    "Bridal Wear",
+    "Cotton Sarees",
+    "Traditional Menswear",
+    "Kids Ethnic Wear",
+    "Festival Clothing",
+    "Wedding Shopping"
+  ],
+  
+  "sameAs": [
+    "https://www.instagram.com/ganeshsilks_"
+  ],
+  
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}

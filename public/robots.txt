@@ -1,3 +1,25 @@
 User-agent: *
 Allow: /
+
+# Specific crawl directives for important pages
+Allow: /collections
+Allow: /wedding
+Allow: /women
+Allow: /men
+Allow: /kids
+Allow: /festival
+Allow: /gallery
+Allow: /about
+Allow: /contact
+
+# Block unnecessary files
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.lock$
+Disallow: /node_modules/
+Disallow: /dist/
+
 Sitemap: https://www.sriganeshsilksthekkatte.com/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
