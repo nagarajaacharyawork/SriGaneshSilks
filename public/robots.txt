@@ -20,6 +20,3 @@ Disallow: /node_modules/
 Disallow: /dist/
 
 Sitemap: https://www.sriganeshsilksthekkatte.com/sitemap.xml
-
-# Crawl delay (optional - helps with server load)
-Crawl-delay: 1
