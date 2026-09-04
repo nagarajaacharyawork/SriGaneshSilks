@@ -11,7 +11,7 @@ export const MEGA_MENU: { heading: string; items: Category[] }[] = [
   {
     heading: "Sarees",
     items: [
-      { title: "Silk Sarees", blurb: "Pure mulberry & Kanjivaram", image: IMG.catSilk, to: "/women" },
+      { title: "Silk Sarees", blurb: "Pure mulberry & Kanjivaram", image: IMG.ps_kanchipuramSaree, to: "/women" },
       { title: "Wedding Sarees", blurb: "For the day of days", image: IMG.catWedding, to: "/wedding" },
       { title: "Bridal Sarees", blurb: "Heirloom zari craft", image: IMG.catBridal, to: "/wedding" },
       { title: "Designer Sarees", blurb: "Contemporary drapes", image: IMG.catDesigner, to: "/women" },
@@ -32,14 +32,14 @@ export const MEGA_MENU: { heading: string; items: Category[] }[] = [
       { title: "Women's Collection", blurb: "Sarees, lehengas, kurtis", image: IMG.catDesigner, to: "/women" },
       { title: "Men's Collection", blurb: "Kurtas, dhotis, shirtings", image: IMG.catMen, to: "/men" },
       { title: "Kids Wear", blurb: "Little celebrations", image: IMG.catKids, to: "/kids" },
-      { title: "Accessories", blurb: "Blouses, borders, falls", image: IMG.catSilk, to: "/collections" },
+      { title: "Accessories", blurb: "Blouses, borders, falls", image: IMG.womenBlouses, to: "/collections" },
     ],
   },
 ];
 
 export const SHOP_BY_COLLECTION: Category[] = [
   { title: "Bridal Sarees", blurb: "Handwoven heirlooms", image: IMG.catBridal, to: "/wedding" },
-  { title: "Silk Sarees", blurb: "Pure zari lustre", image: IMG.catSilk, to: "/women" },
+  { title: "Silk Sarees", blurb: "Pure zari lustre", image: IMG.ps_kanchipuramSaree, to: "/women" },
   { title: "Cotton Sarees", blurb: "Coastal handloom", image: IMG.catCotton, to: "/women" },
   { title: "Designer Sarees", blurb: "Modern drapes", image: IMG.catDesigner, to: "/women" },
   { title: "Wedding Collection", blurb: "For the whole family", image: IMG.catWedding, to: "/wedding" },
@@ -71,7 +71,7 @@ export const FEATURED = [
     kicker: "Chapter Two",
     title: "Traditional Elegance",
     body: "Temple borders, korvai joins, real zari that catches the lamplight. Our silk wall holds pieces sourced directly from weaving clusters in Kanchipuram, Dharmavaram and Ilkal.",
-    image: IMG.featuredSilk,
+    image: IMG.ps_softSilkSaree,
     to: "/women",
   },
   {

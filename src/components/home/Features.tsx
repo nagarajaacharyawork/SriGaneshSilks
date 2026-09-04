@@ -228,7 +228,7 @@ export function LatestArrivals() {
 export function InstagramGallery() {
   const shots = [
     IMG.catBridal,
-    IMG.catSilk,
+    IMG.ps_kanchipuramSaree,
     IMG.showSilk,
     IMG.catFestival,
     IMG.catDesigner,

@@ -33,7 +33,7 @@ export const Route = createFileRoute("/festival")({
       pieces={[
         { title: "Deepavali Silks", blurb: "Reds, golds and jewel tones for the festival of light.", image: IMG.catFestival },
         { title: "Ugadi Arrivals", blurb: "Fresh yellows, greens and soft pastels.", image: IMG.catCotton },
-        { title: "Navaratri Nine", blurb: "The nine-colour run, ready every season.", image: IMG.catSilk },
+        { title: "Navaratri Nine", blurb: "The nine-colour run, ready every season.", image: IMG.ps_softSilkSaree },
         { title: "Temple Visit Sarees", blurb: "Traditional weaves with classic borders.", image: IMG.catBridal },
         { title: "Family Festival Sets", blurb: "Coordinated pieces for every member.", image: IMG.hero3 },
         { title: "Gifting Textiles", blurb: "Sarees, dhotis and shawls suited to gifting.", image: IMG.hero2 },

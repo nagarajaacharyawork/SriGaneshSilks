@@ -34,7 +34,7 @@ function Collections() {
         kicker="The House Collections"
         title="Every weave, under one roof"
         intro="Twelve collections curated across seven decades — from heirloom bridal silks to everyday coastal cottons."
-        image={IMG.catSilk}
+        image={IMG.ps_kanchipuramSaree}
       />
 
       <section className="section-y bg-background">

@@ -4,6 +4,8 @@ import { IMG } from "@/lib/images";
 
 const WOMEN_PHOTOS = [
   { src: IMG.ps_womenSaree, alt: "Women's saree collection" },
+  { src: IMG.ps_kanchipuramSaree, alt: "Kanchipuram silk saree" },
+  { src: IMG.ps_softSilkSaree, alt: "Soft silk saree" },
   { src: IMG.ps_womenSaree01, alt: "Saree photoshoot" },
   { src: IMG.ps_womenSaree02, alt: "Saree drapes" },
   { src: IMG.ps_womenSaree03, alt: "Silk sarees" },
@@ -49,7 +51,8 @@ export const Route = createFileRoute("/women")({
         "At the far end, designer drapes and dress materials — organza, tissue, georgette and unstitched sets with matching dupattas, restocked every few weeks.",
       ]}
       pieces={[
-        { title: "Pure Silk Sarees", blurb: "Kanjivaram, Mysore and Dharmavaram weaves.", image: IMG.catSilk },
+        { title: "Pure Silk Sarees", blurb: "Kanjivaram, Mysore and Dharmavaram weaves.", image: IMG.ps_kanchipuramSaree },
+        { title: "Soft Silk Sarees", blurb: "Lightweight silk with elegant drape.", image: IMG.ps_softSilkSaree },
         { title: "Cotton Sarees", blurb: "Ilkal, Mangalgiri and coastal handlooms.", image: IMG.womenCottonSarees },
         { title: "Designer Sarees", blurb: "Organza, tissue and embroidered contemporary drapes.", image: IMG.womenDesignerSarees },
         { title: "Printed Sarees", blurb: "Light, easy and perfect for daily wear.", image: IMG.womenPrintedSarees },

@@ -20,6 +20,8 @@ import ps_lehenga from "@/assets/NewPhotoshootImages/women Lehenga Choli.webp";
 import ps_children from "@/assets/NewPhotoshootImages/ChildrensDress.webp";
 import ps_staffs from "@/assets/NewPhotoshootImages/staffs.jpg";
 import ps_completeStaffs from "@/assets/NewPhotoshootImages/complatestaffs.jpg";
+import ps_kanchipuramSaree from "@/assets/NewPhotoshootImages/Kanchipuram saree.webp";
+import ps_softSilkSaree from "@/assets/NewPhotoshootImages/soft silk saree.webp";
 
 // Hero slides
 import hero1 from "@/assets/Saree-01.webp";
@@ -189,6 +191,8 @@ export const IMG = {
   ps_children,
   ps_staffs,
   ps_completeStaffs,
+  ps_kanchipuramSaree,
+  ps_softSilkSaree,
 };
 
 export const LOGO = "/GaneshSilksLogo.jpg";
