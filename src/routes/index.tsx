@@ -2,11 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/home/Hero";
 import {
   TrustStrip,
-  ShopByCollection,
-  FeaturedCollections,
   ShopByOccasion,
   WhyUs,
 } from "@/components/home/Sections";
+import { DynamicFeaturedCollections, HybridShopByCollection } from "@/components/home/DynamicSections";
 import {
   AboutTeaser,
   ShowroomGallery,
@@ -56,8 +55,8 @@ function Home() {
     <>
       <Hero />
       <TrustStrip />
-      <ShopByCollection />
-      <FeaturedCollections />
+      <HybridShopByCollection />
+      <DynamicFeaturedCollections />
       <ShopByOccasion />
       <AboutTeaser />
       <ShowroomGallery />

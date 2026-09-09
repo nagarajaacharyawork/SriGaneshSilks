@@ -16,6 +16,12 @@ dist-ssr
 .nitro
 *.local
 
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
 # Lovable
 .lovable
 

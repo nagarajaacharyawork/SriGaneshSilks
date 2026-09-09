@@ -4,6 +4,7 @@ import { Reveal } from "@/components/site/Reveal";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { ShopByOccasion } from "@/components/home/Sections";
 import { FinalCta } from "@/components/home/Features";
+import { DynamicCollections } from "@/components/collections/DynamicCollections";
 import { MEGA_MENU, SHOP_BY_COLLECTION } from "@/lib/catalog";
 import { IMG } from "@/lib/images";
 
@@ -37,6 +38,24 @@ function Collections() {
         image={IMG.ps_kanchipuramSaree}
       />
 
+      {/* Dynamic Collections Section */}
+      <section className="section-y bg-background">
+        <div className="shell">
+          <SectionHeading
+            kicker="Latest Collections"
+            title="Recently Added by Our Team"
+            intro="Fresh arrivals uploaded by our showroom team — featuring the newest additions to our collection."
+          />
+          <div className="mt-16">
+            <DynamicCollections
+              featured={false}
+              className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 md:gap-6"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Static Collections Section */}
       <section className="section-y bg-background">
         <div className="shell">
           <SectionHeading
